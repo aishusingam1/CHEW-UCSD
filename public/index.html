@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Chews-UCSD</title>
+            <link rel="stylesheet" href="css/style.css">
+            <script src="main.js"></script>
+    </head>
+
+    <body>
+        <img src="images/logo.png" alt="Logo">
+
+        <p>Choose the colleges which you would like to eat at: </p>
+
+        <form  action="/suggest" method="post">
+            <div class="button-labels">
+                <input type="checkbox" class="hidden" id="revelle" name="revelle">
+                <label for="revelle">Revelle</label>
+        
+                <input type="checkbox" id="muir" name="muir">
+                <img src="images/muir.png">
+                <label for="muir">Muir</label>
+        
+                <input type="checkbox" id="marshall" name="marshall">
+                <label for="marshall">Marshall</label>
+        
+                <input type="checkbox" id="warren" name="warren">
+                <label for="warren">Warren</label>
+        
+                <input type="checkbox" id="roosevelt" name="roosevelt">
+                <label for="roosevelt">Roosevelt</label>
+        
+                <input type="checkbox" id="sixth" name="sixth">
+                <label for="sixth">Sixth</label>
+        
+                <input type="checkbox" id="seventh" name="seventh">
+                <label for="seventh">Seventh</label>
+            </div>
+
+            <button id="btn" type="submit" name="generate">Generate Suggestion!</button>
+        </form>
+       
+        <div class="circle"></div>
+    </body>
+</html>
